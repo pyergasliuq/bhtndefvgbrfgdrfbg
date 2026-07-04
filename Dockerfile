@@ -70,7 +70,7 @@ ENV TOKEN="" \
     ASSETS_DIR=/app/assets \
     LOG_FILE=/app/logs/pweper.log \
     LOG_LEVEL=info \
-    ENABLE_MTPROTO=0
+    ENABLE_MTPROTO=1
 
 # Volumes for persistent data
 VOLUME ["/app/data", "/app/logs", "/app/work"]
